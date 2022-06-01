@@ -1,1 +1,24 @@
+package homework1;
+
+import java.util.Scanner;
+
+public class Tips {
+	public static void main(String[] args) {
+		int subtotal, total, gratuityr, gratuity;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("What was your total?");
+		subtotal = input.nextInt();
+		System.out.println("What is the gratuity rate?");
+		gratuityr = input.nextInt();
+		
+		gratuity = subtotal * gratuityr;
+		total = subtotal + gratuity;
+		
+		System.out.println
+		
+	}
+
+}
 
